@@ -1,0 +1,115 @@
+.github-list {
+    max-width: 1000px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.github-list article {
+    background: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.github-list article p {
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.github-list .user-div {
+    display: flex;
+    justify-content: center;
+}
+
+.github-list .user-div article {
+    width: calc(100%/2);
+}
+
+.github-list article a {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #da552f;
+    background: none;
+    margin-top: 10px;
+    color: #da552f;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.github-list article a:hover {
+    background: #da552f;
+    color: #FFF;
+}
+
+.github-list .actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.github-list .form-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.github-list .actions button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #da552f;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.github-list .actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.github-list .actions button:hover {
+    opacity: 0.7;
+}
+
+.github-list .actions button[disabled]:hover {
+    opacity: 0.5;
+}
+
+.github-list .follow-container {
+    display: flex;
+    height: 100%/2;
+}
+
+.github-list .follow-container > div{
+    width: calc(100%/2);
+    height: 100%;
+    float: left;
+    background: #2d27278a;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.github-list p {
+    padding: 0 0 15px 0;
+    text-align: center;
+    color: #FFF ;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.github-list img {
+    width: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
